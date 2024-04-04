@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding-top: 80px;
+      padding-bottom: 115px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .ingredient img {
+      width: 200px;
+      height: auto;
+      margin-left: 5px;
+    }
+
+    header {
+      background: #464646;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    header h1 {
+  font-family: Arial;
+  font-weight: 500;
+  color: white;
+  padding-left: 50px; /* Add padding to the left */
+}
+
+    header nav {
+      display: flex;
+      align-items: center;
+      width: 55%;
+      justify-content: space-between;
+    }
+
+    header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+    }
+
+    header nav ul li {
+      margin-left: 10px;
+    }
+
+    footer {
+      background: #464646;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+    footer p {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      color: white;
+      font-family: Arial;
+      padding-left: 10px;
+    }
+
+    .ingredient {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .ingredient h3 {
+      font-family: Verdana;
+      font-weight: 500;
+      color: Teal;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    h2 {
+      font-family: Verdana;
+      font-weight: 800;
+    }
+
+    ul li a {
+      color: rgb(255, 153, 0);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 style="font-family: Arial; font-weight: 500; color: white;">My Training Center</h1>
+    <nav>
+      <ul style="font-family: Arial;">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section style="text-align: center;">
+    <h2>How To Build A Burger</h2>
+    <ul>
+      <li class="ingredient">
+        <div>
+          <h3>Sourdough</h3>
+          <h3>Bun Top</h3>
+        </div>
+        <img src="./ingredients/sourdough_top.png">
+      </li>
+      <li class="ingredient">
+        <div>
+          <h3>Pickles</h3>
+        </div>
+        <img src="./ingredients/pickles.png">
+      </li>
+      <li class="ingredient">
+        <div>
+          <h3>Tomato</h3>
+        </div>
+        <img src="./ingredients/tomato.png">
+      </li>
+      <li class="ingredient">
+        <div>
+          <h3>Lettuce</h3>
+        </div>
+        <img src="./ingredients/lettuce.png">
+      </li>
+      <li class="ingredient">
+        <div>
+          <h3>American</h3>
+          <h3>Cheese</h3>
+        </div>
+        <img src="./ingredients/cheese.png">
+      </li>
+      <li class="ingredient">
+        <div>
+          <h3>Burger</h3>
+          <h3>Patty</h3>
+        </div>
+        <img src="./ingredients/patty.png">
+      </li>
+      <li class="ingredient">
+        <div>
+          <h3>Ranch</h3>
+          <h3>Swirl</h3>
+        </div>
+        <img src="./ingredients/ranch.png">
+      </li>
+      <li class="ingredient">
+        <div>
+          <h3>Sourdough</h3>
+          <h3>Bottom</h3>
+        </div>
+        <img src="./ingredients/sourdough_bottom.png">
+      </li>
+    </ul>
+  </section>
+  <footer>
+    <nav>
+      <ul style="font-family: Arial;">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <p>Bub's Burger Joint | copyright<span>&copy; 2014</span></p>
+  </footer>
+</body>
+
+</html>
